@@ -1,0 +1,95 @@
+export const events = [
+  {
+    id: 1,
+    title: 'Clase Principiantes',
+    type: 'class',
+    level: 'beginner',
+    date: '2023-07-10',
+    time: '18:00',
+    duration: 90,
+    location: 'Gimnasio Shamrock',
+    instructor: 'Alejandra Torres',
+    maxParticipants: 8,
+    availableSpots: 5
+  },
+  {
+    id: 2,
+    title: 'Taller de Seguridad',
+    type: 'workshop',
+    level: 'all',
+    date: '2023-07-12',
+    time: '16:00',
+    duration: 120,
+    location: 'Sala de Talleres',
+    instructor: 'Carlos Mendoza',
+    maxParticipants: 12,
+    availableSpots: 3
+  },
+  {
+    id: 3,
+    title: 'Salida a Piedra Parada',
+    type: 'outing',
+    level: 'intermediate',
+    date: '2023-07-15',
+    time: '08:00',
+    duration: 480,
+    location: 'Piedra Parada',
+    instructor: 'Mariana Solís',
+    maxParticipants: 6,
+    availableSpots: 2
+  },
+  {
+    id: 4,
+    title: 'Entrenamiento Avanzado',
+    type: 'class',
+    level: 'advanced',
+    date: '2023-07-11',
+    time: '19:30',
+    duration: 90,
+    location: 'Gimnasio Shamrock',
+    instructor: 'Luis Ramírez',
+    maxParticipants: 6,
+    availableSpots: 6
+  },
+  {
+    id: 5,
+    title: 'Yoga para Escaladores',
+    type: 'class',
+    level: 'all',
+    date: '2023-07-13',
+    time: '09:00',
+    duration: 60,
+    location: 'Sala de Yoga',
+    instructor: 'Daniela Castro',
+    maxParticipants: 10,
+    availableSpots: 4
+  },
+  {
+    id: 6,
+    title: 'Salida a El Cajas',
+    type: 'outing',
+    level: 'advanced',
+    date: '2023-08-05',
+    time: '07:00',
+    duration: 600,
+    location: 'Parque Nacional El Cajas',
+    instructor: 'Ana García',
+    maxParticipants: 5,
+    availableSpots: 5
+  },
+  {
+    id: 7,
+    title: 'Salida a Cojitambo',
+    type: 'outing',
+    level: 'beginner',
+    date: '2023-08-12',
+    time: '09:00',
+    duration: 420,
+    location: 'Cojitambo',
+    instructor: 'Juan Pérez',
+    maxParticipants: 10,
+    availableSpots: 8
+  },
+];
+
+// DONE

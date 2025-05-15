@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import VideoTutorialModal from './VideoTutorialModal';
+import VideoTutorialModal from '../common/VideoTutorialModal';
 import TechniqueLevelSection from './TechniqueLevelSection';
-import { techniques } from '../mock/techniques';
+import { techniques } from '../../mock/techniques';
 
 const TechniqueCatalogView = () => {
   const [completedItems, setCompletedItems] = useState({});

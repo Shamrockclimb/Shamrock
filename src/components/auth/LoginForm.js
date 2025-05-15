@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { mockUsers } from '../mock/users';
+import { mockUsers } from '../../mock/users';
 
 const LoginForm = ({ onLogin, onSwitchToRegister }) => {
   const [formData, setFormData] = useState({

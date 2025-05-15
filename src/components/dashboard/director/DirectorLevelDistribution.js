@@ -1,5 +1,5 @@
 import React from 'react';
-import { mockUsers } from '../mock/users';
+import { mockUsers } from '../../../mock/users';
 
 const DirectorLevelDistribution = () => {
   const students = mockUsers.filter(user => user.role === 'student');

@@ -1,6 +1,6 @@
 import React from 'react';
-import { mockUsers } from '../mock/users';
-import { mockPayments } from '../mock/payments';
+import { mockUsers } from '../../../mock/users';
+import { mockPayments } from '../../../mock/payments';
 
 const DirectorStudentList = () => {
   const students = mockUsers.filter(user => user.role === 'student');

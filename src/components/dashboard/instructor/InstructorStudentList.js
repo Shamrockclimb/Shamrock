@@ -1,5 +1,5 @@
 import React from 'react';
-import { mockUsers } from '../mock/users';
+import { mockUsers } from '../../../mock/users';
 
 const InstructorStudentList = ({ instructorId }) => {
   // Simular alumnos asignados a este instructor

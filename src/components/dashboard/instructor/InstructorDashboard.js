@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import CreateEventModal from './CreateEventModal';
+import CreateEventModal from '../../calendar/CreateEventModal';
 import InstructorStudentList from './InstructorStudentList';
 import InstructorMaterialRepository from './InstructorMaterialRepository'; // Importamos el repositorio
 

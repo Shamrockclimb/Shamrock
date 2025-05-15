@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import VideoTutorialModal from './VideoTutorialModal';
 
 const TechniqueLevelSection = ({ level, techniques, completedItems, onToggleItem, onOpenVideo }) => { // Recibir onOpenVideo
   const [isExpanded, setIsExpanded] = useState(false); // Estado para controlar la expansión

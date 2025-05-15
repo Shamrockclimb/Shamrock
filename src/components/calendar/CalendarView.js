@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import EventCard from './EventCard';
-import CalendarFilters from './CalendarFilters';
-import CalendarViewToggle from './CalendarViewToggle';
+import CalendarFilters from '../common/CalendarFilters';
+import CalendarViewToggle from '../common/CalendarViewToggle';
 import CreateEventModal from './CreateEventModal';
-import { events as initialEvents } from '../mock/events';
+import { events as initialEvents } from '../../mock/events';
 
 const CalendarView = ({ userRole }) => {
   const [view, setView] = useState('grid');

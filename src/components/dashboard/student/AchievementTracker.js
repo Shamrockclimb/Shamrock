@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import VideoTutorialModal from './VideoTutorialModal';
-import CategoryProgress from './CategoryProgress';
+import VideoTutorialModal from '../../common/VideoTutorialModal';
+import CategoryProgress from '../../common/CategoryProgress';
 
 const AchievementTracker = () => {
   const [activeCategory, setActiveCategory] = useState('safety');

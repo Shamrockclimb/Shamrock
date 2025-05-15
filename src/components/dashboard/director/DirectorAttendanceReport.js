@@ -1,7 +1,7 @@
 import React from 'react';
-import { mockAttendance } from '../mock/attendance';
-import { mockUsers } from '../mock/users';
-import { events } from '../mock/events';
+import { mockAttendance } from '../../../mock/attendance';
+import { mockUsers } from '../../../mock/users';
+import { events } from '../../../mock/events';
 
 const DirectorAttendanceReport = () => {
   const studentAttendance = mockAttendance.filter(att => att.role === 'student');

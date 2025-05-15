@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import TechniqueLevelSection from './TechniqueLevelSection';
-import { techniques } from '../mock/techniques';
+import { techniques } from '../../mock/techniques';
 
 const TechniqueProgressView = () => {
   const [completedItems, setCompletedItems] = useState(() => {

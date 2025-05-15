@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from 'react';
-import ShamrockHeader from './components/ShamrockHeader';
-import StudentRegistrationForm from './components/StudentRegistrationForm';
-import LoginForm from './components/LoginForm';
-import CalendarView from './components/CalendarView';
-import StudentDashboard from './components/StudentDashboard';
-import AchievementTracker from './components/AchievementTracker';
-import NotificationsPanel from './components/NotificationsPanel';
-import TechniqueCatalogView from './components/TechniqueCatalogView';
-import InstructorDashboard from './components/InstructorDashboard';
-import DirectorDashboard from './components/DirectorDashboard';
+import ShamrockHeader from './components/common/ShamrockHeader';
+import StudentRegistrationForm from './components/auth/StudentRegistrationForm';
+import LoginForm from './components/auth/LoginForm';
+import CalendarView from './components/calendar/CalendarView';
+import StudentDashboard from './components/dashboard/student/StudentDashboard';
+import AchievementTracker from './components/dashboard/student/AchievementTracker';
+import NotificationsPanel from './components/common/NotificationsPanel';
+import TechniqueCatalogView from './components/techniques/TechniqueCatalogView';
+import InstructorDashboard from './components/dashboard/instructor/InstructorDashboard';
+import DirectorDashboard from './components/dashboard/director/DirectorDashboard';
 
 const App = () => {
   const [currentStudent, setCurrentStudent] = useState(null);
